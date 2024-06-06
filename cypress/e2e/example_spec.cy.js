@@ -17,7 +17,6 @@ describe('Test trytestingthis.netlify.app', () => {
       cy.get('[name="option3"]').check()
       cy.get('#male').check()
       cy.get('.pop-up-alert > button').click()
-      cy.wait(5000)
       cy.on('window:alert', (text) => {
         expect(text).to.contains('I am an alert box!')
       })
