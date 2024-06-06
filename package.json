@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo I am Pretest",
+    "posttest": "echo I am Posttest",
+    "test": "echo I am the test",
+    "hello": "echo Hello World",
+    "cy-test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.11.0",
+    "cypress-downloadfile": "^1.2.3"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
